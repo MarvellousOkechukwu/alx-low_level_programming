@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main programs that prints all possible different combinations of 3 digits.
+ * main - program that prints all possible combinations of 2 2 digit numbers
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	int m_d;
 	int l_d;
 
-	while (c <= 999)
+	while (c <= 99)
 	{
 		f_d = (c / 100 + '0');
 		m_d = (c / 10 % 10 + '0');
@@ -22,15 +22,13 @@ int main(void)
 			putchar (m_d);
 			putchar (l_d);
 
-			if (c != 789)
+			if (c != 78)
 			{
 				putchar (',');
 				putchar (' ');
 			}
+			c++;
 		}
-		c++;
-	}
 putchar ('\n');
 return  (0);
 }
-
