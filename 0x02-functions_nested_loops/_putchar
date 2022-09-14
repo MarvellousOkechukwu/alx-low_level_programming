@@ -3,9 +3,15 @@
 /**
 * _putchar - writes the character c to stdout
 * @c: The character to print
+<<<<<<< HEAD
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set approriately.
+=======
 * 
 * Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately.
+>>>>>>> 18f9107ef07822a3985930c89c53520339f99748
 */
 int _putchar(char c)
 {
